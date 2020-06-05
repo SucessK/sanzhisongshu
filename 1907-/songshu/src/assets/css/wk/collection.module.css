@@ -1,0 +1,66 @@
+.collection_item{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.2rem 0.2rem 0.2rem 0;
+    background: #ffffff;
+}
+.collection_item li{
+    width: 100%;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid #ddd;
+}
+.collection_item li:last-child{
+    border-bottom: 0;
+}
+.collection_item li:after{
+    content: "";
+    clear: both;
+    display:block;
+    overflow: hidden;
+    visibility: hidden;
+
+}
+.collection_item li>div{
+    float: left;
+}
+.collection_item li>div>img{
+    width: 2.24rem;
+    height: 2.24rem;
+}
+.collection_item .item_goods{
+    float: left;
+    padding-left: 0.2rem;
+    width: 4.5rem;
+}
+.item_goods p{
+    text-align: left;
+    font-size: 0.3rem;
+    color: #262626;
+}
+.item_goods p:nth-child(2){
+    margin: 0.3rem 0 0.2rem 0;
+    color: #ee2e52;
+    font-weight: bold;
+}
+.item_goods>div{
+    overflow: hidden;
+}
+.item_goods>div p{
+    float: left;
+}
+.item_goods>div>.icon{
+    float: right;
+}
+.item_goods>div .icon span{
+    float: left;
+    font-size: 0.4rem;
+
+    padding-right: 0.2rem;
+    color: #b2b2b2;
+}
+.icon span:last-child{
+    padding-left: 0.2rem;
+    border-left: 1px solid #b2b2b2;
+}

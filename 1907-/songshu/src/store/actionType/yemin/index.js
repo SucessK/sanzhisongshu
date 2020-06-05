@@ -1,0 +1,3 @@
+export default {
+  CAHNGE_PRODUCT_LIST:"CAHNGE_PRODUCT_LIST",
+}

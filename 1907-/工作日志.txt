@@ -1,0 +1,48 @@
+
+
+************4.29**************
+王解：
+    1.去掉src->index.js中路由拦截url自动添加api前缀功能
+    2.在src->index.js中加入全局$axios
+    3.在src->view中添加categories.module.scss
+    4.修改Categories.jsx实现头部发现按钮切换页面请求数据功能。
+
+************4.30**************
+王可：
+1.修改了shopcart页面
+2.增加css文件夹
+3.增加了css文件，增加cartList页面。更新了阿里图标链接，添加img
+
+************5.1**************
+王可：
+1.修改productInfo,增加了img图片，增加了loading组件，增加了css文件productInfo.module，
+修改日志
+
+***********5.3*************
+王可
+
+改动了productInfo,cartList,ShoppingCart,css文件，
+修改路由 /productInfo
+注意：跳转商品详情需要两个参数，goodsId，productId,
+按照  /productInfo/:goodsId/:productId.html   
+***
+数据库文档
+carList集合
+用户名：userName，
+name,
+defaultGoodsId,
+id,
+salesPrice:salesPrice:{value:'123'},
+pic,
+购买数量buyNum,
+选中：isChecked:true
+修改api /server，增加db中更新多条语句
+
+5-4
+王可
+修改收藏页面。增加购物车的功能。增加api接口
+增加collect集合 储存收藏
+
+***********5.4*************
+王可
+继续完善功能，增加swiper组件，

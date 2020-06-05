@@ -1,0 +1,127 @@
+.view {
+  width: 100%;
+  height: 100%;
+  margin-top: 0.9rem;
+  .nav {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0.9rem;
+    left: 0;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      li {
+        width: 33.33%;
+        height: 0.761rem;
+        // height: 1rem;//55.19px
+        line-height: 0.761rem;
+        font-size: 0.407rem;
+        font-weight: 400;
+        color: #262626;
+        padding: 0 6px;
+        // font-family: Arial;
+      }
+      .activeLi {
+        text-decoration: underline;
+        color: #77bc1f;
+      }
+      li:nth-child(3) {
+        position: relative;
+        .top {
+          position: absolute;
+          color: #262626;
+          text-decoration: none;
+        }
+        .down {
+          color: #262626;
+          text-decoration: none;
+        }
+        .activeI {
+          color: #77bc1f;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .goods {
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 1.67rem;
+    ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      li {
+        width: 50%;
+        margin-bottom: 6px;
+        padding-bottom: 2px;
+        font-size: 0.272rem;
+        .goodsWrap {
+            background-color: #fff;
+          div {
+            height: 3.696rem;
+            margin-bottom: 5px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .title {
+            text-align: left;
+            padding: 0 8px;
+            height: 2.6em;
+            margin: 0;
+            line-height: 1.3em;
+            white-space: normal;
+            overflow: hidden;
+            color: #262626;
+          }
+          .price {
+            position: relative;
+            margin-bottom: 0;
+            padding: 0 8px;
+            line-height: 1.5em;
+            color: #ee2e52;
+            overflow: visible;
+            text-align: left;
+            span:nth-child(1) {
+              margin-right: 4px;
+              vertical-align: baseline;
+              font-size: 0.29rem;
+            }
+            span:nth-child(2) {
+              margin-right: 4px;
+              vertical-align: baseline;
+              position: relative;
+              color: #999;
+              font-size: 0.217rem;
+            }
+            span:nth-child(3) {
+              position: absolute;
+              right: 8px;
+              top: 50%;
+              margin-top: -12px;
+              padding: 0;
+              width: 24px;
+              height: 24px;
+              min-width: 24px;
+              min-height: 24px;
+              color: #77bc1f;
+              font-size: 0.38rem;
+            }
+          }
+        }
+      }
+      li:nth-child(2n-1) {
+        padding-right: 3px;
+      }
+      li:nth-child(2n) {
+        padding-left: 3px;
+      }
+    }
+  }
+}
